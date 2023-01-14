@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "123867608923",
+    "project_id": "mediastorage-ce41e",
+    "storage_bucket": "mediastorage-ce41e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123867608923:android:0607a94029eb8c5c3e0c7e",
+        "android_client_info": {
+          "package_name": "com.thecloudforme.mediastorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123867608923-ab0nlba41scsrhkl4s5gs3prc93aqeua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4R_waW_aOXVJsXTad5Bk7tnHoIqWLSfs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123867608923-ab0nlba41scsrhkl4s5gs3prc93aqeua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

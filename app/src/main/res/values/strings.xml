@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MediaStorage</string>
+    <string name="emailInputHint">Email</string>
+    <string name="passwordInputHint">Password</string>
+    <string name="loginButtonText">Login</string>
+</resources>
