@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,26 +7,31 @@
     tools:context=".LoginActivity"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/emailInput"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="@string/emailInputHint"
-        android:inputType="textEmailAddress"
-        android:autofillHints="emailAddress" />
+<!--    <EditText-->
+<!--        android:id="@+id/emailInput"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:hint="@string/emailInputHint"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:autofillHints="emailAddress" />-->
 
-    <EditText
-        android:id="@+id/passwordInput"
-        android:layout_width="match_parent"
-        android:layout_height="48dp"
-        android:hint="@string/passwordInputHint"
-        android:inputType="textPassword"
-        android:autofillHints="password"/>
+<!--    <EditText-->
+<!--        android:id="@+id/passwordInput"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp"-->
+<!--        android:hint="@string/passwordInputHint"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:autofillHints="password"/>-->
 
-    <Button
+<!--    <Button-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/loginButtonText"-->
+<!--        />-->
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/loginButtonText"
-        />
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
