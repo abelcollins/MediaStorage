@@ -2,6 +2,7 @@ package com.thecloudforme.mediastorage
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -9,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // Retrieve the data sent from LoginActivity
-        val name = intent.getStringExtra("name")
+        val account = intent.removeExtra("GoogleAccount")
 
     }
 }
